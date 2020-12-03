@@ -65,7 +65,7 @@ U 1 1 5FC40EA8
 P 7450 2550
 F 0 "U1" H 7450 1883 50  0000 C CNN
 F 1 "CC56-12CGKWA" H 7450 1974 50  0000 C CNN
-F 2 "Display_7Segment:CA56-12CGKWA" H 7450 1950 50  0001 C CNN
+F 2 "CircuitBoard:HKL-8041-AB" H 7450 1950 50  0001 C CNN
 F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/CC56-12CGKWA(Ver.8A).pdf" H 7020 2580 50  0001 C CNN
 	1    7450 2550
 	-1   0    0    1   
@@ -96,7 +96,7 @@ U 1 1 5FC4D2DB
 P 9300 4300
 F 0 "U2" V 9346 3556 50  0000 R CNN
 F 1 "74HC595" V 9255 3556 50  0000 R CNN
-F 2 "CircuitBoard:HKL-8041-AB" H 9300 4300 50  0001 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 9300 4300 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 9300 4300 50  0001 C CNN
 	1    9300 4300
 	0    -1   -1   0   
