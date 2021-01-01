@@ -49,16 +49,14 @@ $EndComp
 $Comp
 L Device:R R1
 U 1 1 5FC39072
-P 5950 3500
-F 0 "R1" H 6020 3546 50  0000 L CNN
-F 1 "330" H 6020 3455 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 5880 3500 50  0001 C CNN
-F 3 "~" H 5950 3500 50  0001 C CNN
-	1    5950 3500
+P 5950 3450
+F 0 "R1" H 6020 3496 50  0000 L CNN
+F 1 "330" H 6020 3405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5880 3450 50  0001 C CNN
+F 3 "~" H 5950 3450 50  0001 C CNN
+	1    5950 3450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5950 3800 5950 3650
 $Comp
 L Display_Character:CC56-12CGKWA U1
 U 1 1 5FC40EA8
@@ -80,8 +78,6 @@ Wire Wire Line
 	5850 3050 5850 2250
 Wire Wire Line
 	5850 2250 6350 2250
-Wire Wire Line
-	5950 3350 5950 2150
 Wire Wire Line
 	5950 2150 6350 2150
 Wire Wire Line
@@ -135,19 +131,6 @@ Wire Wire Line
 	9600 3900 9600 2150
 Wire Wire Line
 	9600 2150 8550 2150
-Wire Wire Line
-	5050 3800 5050 3650
-Wire Wire Line
-	5050 3650 5950 3650
-Wire Wire Line
-	8250 3650 8250 4850
-Wire Wire Line
-	8250 4850 8900 4850
-Wire Wire Line
-	8900 4850 8900 4700
-Connection ~ 5950 3650
-Wire Wire Line
-	5950 3650 8250 3650
 Wire Wire Line
 	5150 3800 5150 3700
 Wire Wire Line
@@ -325,4 +308,18 @@ $EndComp
 NoConn ~ 6250 4800
 NoConn ~ 5150 4800
 NoConn ~ 5050 4800
+Wire Wire Line
+	8900 4850 8900 4700
+Wire Wire Line
+	8250 4850 8900 4850
+Wire Wire Line
+	8250 3650 8250 4850
+Wire Wire Line
+	5050 3800 5050 3650
+Wire Wire Line
+	5050 3650 8250 3650
+Wire Wire Line
+	5950 3800 5950 3600
+Wire Wire Line
+	5950 3300 5950 2150
 $EndSCHEMATC
