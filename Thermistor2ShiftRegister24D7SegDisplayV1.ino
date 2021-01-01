@@ -2,15 +2,13 @@
  * Thermistor Temperature Sensor Displayed on 4 Digit 7 segment display
  * Created by Liam Plybon, blablabliam.github.io
  * 
- * Temperature is read from a thermistor to an Arduino Uno, calculated with general 
+ * Temperature is read from a thermistor to an Arduino Nano, calculated with general 
  * data for a 10k NTC Thermistor, and transmitted bitwise to a shift register and 
- * 7 segment display with four digits. Could be done with a nano as well, but this
- * was easier for prototyping.
+ * 7 segment display with four digits. 
  */
 
 /*
- * temp control to get temp in K. Seems off for my thermistor by quite a bit,
- * around 5 degrees at STP and 6 at 0 C. 
+ * temp control to get temp in K.
  */
 
 int ThermistorPin = 0;
@@ -30,7 +28,7 @@ const int digitPins[4] = {
   4,5,6,7};                 //4 common anode pins of the display
 const int clockPin = 11;    //74HC595 Pin 11 
 const int latchPin = 12;    //74HC595 Pin 12
-const int dataPin = 13;     //74HC595 Pin 14
+const int dataPin = 10;     //74HC595 Pin 14
 const byte digit[10] =      //seven segment digits in bits
 {
   B11000000, //0 B00111111
